@@ -36,6 +36,9 @@ class MergeSortClass(object):
     @staticmethod
     def MergeSort(input_list):
         """
+        Divide
+        """
+        """
         Break Condition
         """
         if len(input_list) == 1:
