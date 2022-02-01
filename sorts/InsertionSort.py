@@ -6,6 +6,9 @@
 
 
 class InsertionSortClass(object):
+    """
+    O(n2)
+    """
     @staticmethod
     def InsertionSort(input_list):
         n = len(input_list)
