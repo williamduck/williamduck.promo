@@ -46,10 +46,13 @@ class MergeSortClass(object):
         len_list = len(input_list)
         mid = len_list // 2
         """
-        Recursive Divide
+        Divide
         """
         left_part = MergeSortClass.MergeSort(input_list[:mid])
         right_part = MergeSortClass.MergeSort(input_list[mid:])
+        """
+        Merge
+        """
         return MergeSortClass.MergeTwoPart(left_part, right_part)
 
 
